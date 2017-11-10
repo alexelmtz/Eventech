@@ -6,6 +6,7 @@ public class Startup {
 	private static String username = "";
 	private static String password = "";
 	
+	// Displays username and password GUIs for users to login
 	private static void login() {
 		JPanel login = new JPanel();
 		JLabel lPassword = new JLabel("Enter Password:");
@@ -24,10 +25,9 @@ public class Startup {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		JOptionPane.showMessageDialog(null,"Welcome to Eventech\n", 
 				"Welcome", JOptionPane.PLAIN_MESSAGE);
-		login();			
+		login();	
 	}
 
 }
