@@ -1,0 +1,25 @@
+<div>
+<%if flash[:alert] %>
+<p id="notice"><%= flash[:alert] %></p>
+<% end %>
+<%= form_tag do %>
+<div class="row">
+	<div class="col-sm-4" style="margin-left:30px">
+		<h2> Login </h2>
+		<div>
+		<%= label_tag :name, 'Name' %>
+		</br>
+		<%= text_field_tag :name, params[:name] %>
+		</br>
+		<%= label_tag :password, 'Password' %>
+		</br>
+		<%= password_field_tag :password, params[:password] %>
+		</div>
+		<div>
+		</br>
+		<%= submit_tag "Login" %>
+		</div>
+	</div>
+</div>
+<% end %>
+</div>
