@@ -3,6 +3,10 @@ class SessionsController < ApplicationController
   def new
   end
 
+  def landing_page
+    @disable_nav = true
+  end
+
   def create
   	user = User.find_by(name: params[:name])
   	if user and user.authenticate(params[:password])
