@@ -1,32 +1,36 @@
 <div class="row">
 	<div class="col-sm-2 col-sm-offset-5" id="welcome">
-		<h1>Events</h1>
+		<h1 style="margin-bottom: 40px;">Events</h1>
 	</div>
 </div>
 <div class="row">
   <table class="col-sm-offset-1 table-hover table-bordered">
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Place</th>
-        <th>Host</th>
+        <th class="pic">Name</th>
+        <th class="pic">Place</th>
+        <th class="pic">Host</th>
+        <th class="pic">Interested?</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Local Hack Day</td>
-        <td>HackMTY</td>
-        <td>Dev Meetup</td>
+        <td class="pic">Local Hack Day</td>
+        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en" %> </td>
+        <td class="pic"><%=link_to "MLH", pages_companies_path %></td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path %></td>
       </tr>
       <tr>
-        <td>Tec de Monterrey</td>
-        <td>Tec de Monterrey</td>
-        <td>Cowork</td>
+        <td class="pic">HackMTY</td>
+        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en" %> </td>
+        <td class="pic"><%=link_to "ACM", pages_companies_path %></td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path %></td>
       </tr>
       <tr>
-        <td>MLH</td>
-        <td>ACM</td>
-        <td>Disruptive Angels</td>
+        <td class="pic">Dev Meetup</td>
+        <td class="pic"> <%=link_to "Coworking", "https://www.google.com.mx/maps/place/Coworking+Monterrey/@25.6800143,-100.3097588,17z/data=!3m1!4b1!4m5!3m4!1s0x866295819f8f1b15:0xe50c2defa24cc622!8m2!3d25.6800143!4d-100.3075701?hl=en" %> </td>
+        <td class="pic"> <%=link_to "Disruptive Angels", pages_companies_path %> </td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path %></td>
       </tr>
     </tbody>
   </table>
