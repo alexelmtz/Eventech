@@ -20,11 +20,13 @@
     <nav class="navbar navbar-inverse bg-primary" style="margin: 0;">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Eventech</a>
+        <a class="navbar-brand" href=<%=admin_path%> >Eventech</a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
+        <li> <%=link_to "Companies", pages_companies_path %> </li>
+        <li> <%=link_to "New Event", pages_new_events_path %> </li>
+        <li> <%=link_to "Join Event", pages_join_event_path %> </li>
+        <li> <%=link_to "Logout", login_path %> </li>
       </ul>
     </div>
   </nav>

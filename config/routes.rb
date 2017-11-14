@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'pages/join_event'
+
+  get 'pages/companies'
+
+  get 'pages/new_events'
+
   # get 'admin/index'
 
   # get 'sessions/new'

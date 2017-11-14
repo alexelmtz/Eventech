@@ -16,6 +16,27 @@
 html {
 	background-color: #d5f4f9;
 }
-.row {
+.row, .container {
 	background-color: #d5f4f9;
+}
+
+th {
+	background-color: white;
+}
+table {
+	table-layout: fixed;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+tr, td {
+	line-height: 55px;
+   	min-height: 55px;
+   	height: 55px;
+   	font-size: 30px;
+   	background-color: #e7e7e7;
+}
+
+#pic {
+	text-align: center;
 }

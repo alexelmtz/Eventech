@@ -1,0 +1,25 @@
+<div class="row">
+	<div class="col-sm-2 col-sm-offset-5" id="welcome">
+		<h1 style="margin-bottom: 40px;">Join Event</h1>
+	</div>
+</div>
+
+<%= form_tag do %>
+<div class="row">
+	<div class="col-sm-4" style="margin-left:30px">
+		<div>
+		<h4> Full Name </h4>
+		</br>
+		<%= text_field_tag :name %>
+		</br>
+		<h4> Phone Number </h4>
+		</br>
+		<%= text_field_tag :name %>
+		</div>
+		<div>
+		</br>
+		<%= submit_tag "Join" %>
+		</div>
+	</div>
+</div>
+<% end %>
