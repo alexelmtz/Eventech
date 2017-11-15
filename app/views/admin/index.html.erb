@@ -1,14 +1,15 @@
 <div class="row">
-	<div class="col-sm-2 col-sm-offset-5" id="welcome">
-		<h1 style="margin-bottom: 40px;">Events</h1>
+	<div class="col-sm-2 col-sm-offset-5">
+		<h1 id="welcome">Events</h1>
 	</div>
 </div>
 <div class="row">
-  <table class="col-sm-offset-1 table-hover table-bordered">
+  <table class="col-sm-offset-1 table-bordered">
     <thead>
       <tr>
         <th class="pic">Name</th>
         <th class="pic">Place</th>
+        <th class="pic">Date</th>
         <th class="pic">Host</th>
         <th class="pic">Interested?</th>
       </tr>
@@ -16,21 +17,45 @@
     <tbody>
       <tr>
         <td class="pic">Local Hack Day</td>
-        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en" %> </td>
-        <td class="pic"><%=link_to "MLH", pages_companies_path %></td>
-        <td class="pic"><%=link_to "Join", pages_join_event_path %></td>
+        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en", {class: "link"} %> </td>
+        <td class="pic">November 25, 2017</td>
+        <td class="pic"><%=link_to "MLH", pages_companies_path, {class: "link"} %></td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path, {class: "link"} %></td>
       </tr>
       <tr>
         <td class="pic">HackMTY</td>
-        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en" %> </td>
-        <td class="pic"><%=link_to "ACM", pages_companies_path %></td>
-        <td class="pic"><%=link_to "Join", pages_join_event_path %></td>
+        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en", {class: "link"} %> </td>
+        <td class="pic">November 28, 2017</td>
+        <td class="pic"><%=link_to "ACM", pages_companies_path, {class: "link"} %></td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path, {class: "link"} %></td>
       </tr>
       <tr>
         <td class="pic">Dev Meetup</td>
-        <td class="pic"> <%=link_to "Coworking", "https://www.google.com.mx/maps/place/Coworking+Monterrey/@25.6800143,-100.3097588,17z/data=!3m1!4b1!4m5!3m4!1s0x866295819f8f1b15:0xe50c2defa24cc622!8m2!3d25.6800143!4d-100.3075701?hl=en" %> </td>
-        <td class="pic"> <%=link_to "Disruptive Angels", pages_companies_path %> </td>
-        <td class="pic"><%=link_to "Join", pages_join_event_path %></td>
+        <td class="pic"> <%=link_to "Coworking", "https://www.google.com.mx/maps/place/Coworking+Monterrey/@25.6800143,-100.3097588,17z/data=!3m1!4b1!4m5!3m4!1s0x866295819f8f1b15:0xe50c2defa24cc622!8m2!3d25.6800143!4d-100.3075701?hl=en", {class: "link"} %> </td>
+        <td class="pic">December 1, 2017</td>
+        <td class="pic"> <%=link_to "Disruptive Angels", pages_companies_path, {class: "link"} %> </td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path, {class: "link"} %></td>
+      </tr>
+      <tr>
+        <td class="pic">Rails Meetup</td>
+        <td class="pic"> <%=link_to "Icalia Labs", "https://www.google.com.mx/maps/place/IcaliaLabs/@25.6707881,-100.3099853,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bf922bae2835:0x42aa50eb75bbc256!8m2!3d25.6707881!4d-100.3077966?hl=en", {class: "link"} %> </td>
+        <td class="pic">December 2, 2017</td>
+        <td class="pic"> <%=link_to "Icalia Labs", pages_companies_path, {class: "link"} %> </td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path, {class: "link"} %></td>
+      </tr>
+      <tr>
+        <td class="pic">Internship Info Session</td>
+        <td class="pic"> <%=link_to "Towa Software", "https://www.google.com.mx/maps/place/TOWA+Software/@25.6463599,-100.3248324,17z/data=!3m1!4b1!4m5!3m4!1s0x8662be41468df3ed:0xa93e7ec8189d0c52!8m2!3d25.6463599!4d-100.3226437?hl=en", {class: "link"} %> </td>
+        <td class="pic">December 8, 2017</td>
+        <td class="pic"> <%=link_to "Towa Software", pages_companies_path, {class: "link"} %> </td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path, {class: "link"} %></td>
+      </tr>
+      <tr>
+        <td class="pic">Intro to AI</td>
+        <td class="pic"> <%=link_to "Tec de Monterrey", "https://www.google.com.mx/maps/place/Tecnol%C3%B3gico+de+Monterrey/@25.6515649,-100.2917287,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bfcee61c0709:0xab5b4cc298e6fe08!8m2!3d25.6515649!4d-100.28954?hl=en", {class: "link"} %> </td>
+        <td class="pic">December 16, 2017</td>
+        <td class="pic"> <%=link_to "Definity First", pages_companies_path, {class: "link"} %> </td>
+        <td class="pic"><%=link_to "Join", pages_join_event_path, {class: "link"} %></td>
       </tr>
     </tbody>
   </table>

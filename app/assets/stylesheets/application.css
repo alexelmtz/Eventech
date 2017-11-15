@@ -14,18 +14,23 @@
  *= require_self
  */
 html {
-	background-color: #d5f4f9;
+	background-color: #f4e6d5;
 }
 .row, .container {
-	background-color: #d5f4f9;
+	background-color: #f4e6d5;
+}
+
+#welcome {
+	margin-bottom: 40px;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 th {
-	background-color: white;
+	background-color: #a2b5d0;
 }
 table {
 	table-layout: fixed;
-	width: 80%;
+	width: 82%;
 	margin-bottom: 20px;
 }
 
@@ -33,10 +38,29 @@ tr, td {
 	line-height: 55px;
    	min-height: 55px;
    	height: 55px;
-   	font-size: 30px;
-   	background-color: #e7e7e7;
+   	font-size: 28px;
+   	background-color: white;
 }
 
 .pic {
 	text-align: center;
+}
+
+.link:hover {
+	background-color: transparent;
+    color: #34DDDD;
+    text-decoration: none;
+}
+
+.forms {
+	margin-left: 10%;
+}
+
+#head {
+	height: 60px;
+	margin: 0;
+	background-color: #112e51;
+	box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0;
 }

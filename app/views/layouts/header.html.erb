@@ -17,16 +17,16 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse bg-primary" style="margin: 0;">
+    <nav class="navbar navbar-inverse bg-primary" id="head">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href=<%=admin_path%> >Eventech</a>
+        <a class="navbar-brand" href=<%=admin_path%> style="font-size: 25px;" >Eventech</a>
       </div>
       <ul class="nav navbar-nav">
-        <li> <%=link_to "Companies", pages_companies_path %> </li>
-        <li> <%=link_to "New Event", pages_new_events_path %> </li>
-        <li> <%=link_to "Join Event", pages_join_event_path %> </li>
-        <li> <%=link_to "Logout", login_path %> </li>
+        <li style="font-size: 20px;"> <%=link_to "Companies", pages_companies_path %> </li>
+        <li style="font-size: 20px;"> <%=link_to "New Event", pages_new_events_path %> </li>
+        <li style="font-size: 20px;"> <%=link_to "Join Event", pages_join_event_path %> </li>
+        <li style="font-size: 20px;"> <%=link_to "Logout", login_path %> </li>
       </ul>
     </div>
   </nav>
