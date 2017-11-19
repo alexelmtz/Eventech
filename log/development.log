@@ -11484,3 +11484,513 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-19 14:31:13 -0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 185ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 14:31:15 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.8ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 1.1ms)
+
+
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:30: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+.append=( form.submit, :url => login_path );@output_buffer.s
+                              ^):
+  
+app/views/users/_form.html.erb:30: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/users/new.html.erb:5:in `_app_views_users_new_html_erb__199190059521203689_70184922746200'
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 14:32:38 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:1: syntax error, unexpected =>, expecting keyword_end
+l: user, local: true), :url => login_path, :html {:method =>
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:1: syntax error, unexpected { arg, expecting &. or :: or '[' or '.'
+), :url => login_path, :html {:method => :post}  do |form| @
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected =>, expecting keyword_end
+app/views/users/_form.html.erb:1: syntax error, unexpected { arg, expecting &. or :: or '[' or '.'
+app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:5:in `_app_views_users_new_html_erb__199190059521203689_70184932061040'
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 14:32:46 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:30: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+.append=( form.submit, :url => login_path, :html {:method =>
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:30: syntax error, unexpected { arg, expecting &. or :: or '[' or '.'
+t, :url => login_path, :html {:method => :post} );@output_bu
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/users/_form.html.erb:30: syntax error, unexpected =>, expecting &. or :: or '[' or '.'
+app/views/users/_form.html.erb:30: syntax error, unexpected { arg, expecting &. or :: or '[' or '.'
+app/views/users/_form.html.erb:32: syntax error, unexpected keyword_end, expecting ')'
+app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/users/_form.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+app/views/users/new.html.erb:5:in `_app_views_users_new_html_erb__199190059521203689_70184967870880'
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 14:34:33 -0600
+Started GET "/" for 127.0.0.1 at 2017-11-19 14:34:43 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (17.5ms)
+  Rendered users/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 51ms (Views: 42.3ms | ActiveRecord: 0.6ms)
+
+
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 36ms (Views: 34.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-19 14:34:49 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 207ms (Views: 198.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 14:34:50 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (10.7ms)
+  Rendered users/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 52ms (Views: 36.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-19 14:34:57 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lebRIz1i7D7D7qbZ67JkQSOKN18rhmc5mD52iNq0FpdWs4UfFJPrJNgsYMYc2pF3e3z0+SnknAjwm934XbYfpw==", "user"=>{"name"=>"arturo", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "arturo"], ["password_digest", "$2a$10$occFt/.qmAJM3ZHGZOF8v.RulOEt43NzVdFfE2RRhXodznyBe39tm"], ["created_at", "2017-11-19 20:34:57.604743"], ["updated_at", "2017-11-19 20:34:57.604743"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 66ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-11-19 14:34:57 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-11-19 14:59:46 -0600
+Started POST "/users" for 127.0.0.1 at 2017-11-19 14:59:56 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 33.9ms)
+
+
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iaY290yIPbZjlrQyXerT9vHl+W7FriE0ic6eVKEW2Ch0nc0YAP5Bm96XsG57ctVq0VRw9Cth+EHQ7tRnT1G2Tg==", "user"=>{"name"=>"arturo", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "arturo"], ["password_digest", "$2a$10$J3rp6yjrkkydeuEwcJgIYuq342IgdvU3cbNY7DsGxJSHAp.Tbg.ve"], ["created_at", "2017-11-19 20:59:56.427119"], ["updated_at", "2017-11-19 20:59:56.427119"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 65ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-11-19 14:59:56 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-19 15:00:03 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iaY290yIPbZjlrQyXerT9vHl+W7FriE0ic6eVKEW2Ch0nc0YAP5Bm96XsG57ctVq0VRw9Cth+EHQ7tRnT1G2Tg==", "user"=>{"name"=>"arturo", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "arturo"], ["password_digest", "$2a$10$0e31usZUKL12fV/DO6L7DeqoJ9YCvaQFdNkh7Mwc9LIUGFcONUZPO"], ["created_at", "2017-11-19 21:00:03.393789"], ["updated_at", "2017-11-19 21:00:03.393789"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 62ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-11-19 15:00:03 -0600
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-19 15:01:39 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iaY290yIPbZjlrQyXerT9vHl+W7FriE0ic6eVKEW2Ch0nc0YAP5Bm96XsG57ctVq0VRw9Cth+EHQ7tRnT1G2Tg==", "user"=>{"name"=>"arturo", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "arturo"], ["password_digest", "$2a$10$E6AV21ZwfBBhNpv8j0KITefkn3dHgVh5gvmhNNwFmZRkXqY09uDF6"], ["created_at", "2017-11-19 21:01:39.111840"], ["updated_at", "2017-11-19 21:01:39.111840"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 67ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-19 15:01:39 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 15:02:03 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.6ms)
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.8ms)
+
+
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:1: syntax error, unexpected { arg, expecting =>
+odel: user, local: true, :url{:action => login_path}) do |fo
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected { arg, expecting =>
+app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:5:in `_app_views_users_new_html_erb__2572147596406504458_70127194261760'
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 15:02:24 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:1: syntax error, unexpected { arg, expecting =>
+odel: user, local: true, :url{:action => login_path}) do |fo
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/users/_form.html.erb:1: syntax error, unexpected { arg, expecting =>
+app/views/users/_form.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/users/new.html.erb:5:in `_app_views_users_new_html_erb__2572147596406504458_70127149884660'
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 15:02:39 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.3ms)
+  Rendered users/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-19 15:02:47 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QobcvoujkhppOdRiWDAOrTyr8ZRBcfbJulNAjuVFYSi/vSdRx9XuN9Q40D5+qAgxHBp4Dq++L7zjcwq9CwIPTg==", "user"=>{"name"=>"arturo", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "arturo"], ["password_digest", "$2a$10$yalq0n5bYSZrSPHNpELoqefLxmG6MZKDuDaCD05uq4Hwv.ePCBxoG"], ["created_at", "2017-11-19 21:02:47.659642"], ["updated_at", "2017-11-19 21:02:47.659642"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/new
+Completed 302 Found in 61ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 15:02:47 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.3ms)
+  Rendered users/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 15:03:20 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 43ms (Views: 33.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-19 15:03:24 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YRbMrNPRFrNEKsCPxsGxh+5zoM5tv6xAMAh5isHCUzacLTdDn6dqnvkrxNPgWbcbzsIpVINwdTVpKDO5L4U9UA==", "user"=>{"name"=>"arturo", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "arturo"], ["password_digest", "$2a$10$Ob8n3MbZhb/jITK647w09.vgtkY6pAbV0I4cNLnbIlpGWjMvRQkPq"], ["created_at", "2017-11-19 21:03:24.931429"], ["updated_at", "2017-11-19 21:03:24.931429"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 64ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-19 15:03:24 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-19 15:05:49 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-11-19 15:05:54 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rtzzSX77cdqYf/QyMvhDpAyra8wGJfvFIxePzo/hWc1T5wimMo0N9yV+8G4UYEU4LBriVujqIrB6N8X9YaY3qw==", "name"=>"alex", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "alex"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 75ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-19 15:05:54 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (1.1ms)
+Completed 200 OK in 25ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:05:58 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (2.1ms)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-19 15:06:09 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (2.2ms)
+Completed 200 OK in 47ms (Views: 43.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-19 15:08:56 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (1.4ms)
+Completed 200 OK in 28ms (Views: 22.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:08:58 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (175.8ms)
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007f8f850db6e8>:0x007f8f8261ed88>
+Did you mean?  fork):
+    10: 			Place <%= f.text_field :place %> </br></br>
+    11: 			Date&nbsp; <%= f.text_field :date %> </br></br>
+    12: 			Host&nbsp; <%= f.text_field :host %> </br></br>
+    13: 			<%= form.submit %>
+    14: 		<% end %>
+    15: <!-- 		<button name='button' type='submit' style="height: 30px; width: 70px;"> <%=link_to "Submit", admin_path, {class: "link"} %> </button> -->
+    16: 	</div>
+  
+app/views/pages/new_events.html.erb:13:in `block in _app_views_pages_new_events_html_erb__2151285234537345603_70127172254600'
+app/views/pages/new_events.html.erb:8:in `_app_views_pages_new_events_html_erb__2151285234537345603_70127172254600'
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:11:06 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (1.5ms)
+Completed 200 OK in 34ms (Views: 28.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:11:10 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/pages/new_events"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:12:24 -0600
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/controllers/pages_controller.rb:27: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/pages_controller.rb:27: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:12:31 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (1.5ms)
+Completed 200 OK in 34ms (Views: 23.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:12:33 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/pages/new_events"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:13:53 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (1.7ms)
+Completed 200 OK in 43ms (Views: 31.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:13:55 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/pages/new_events"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-19 15:14:05 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (1.4ms)
+Completed 200 OK in 32ms (Views: 20.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-19 15:14:06 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (2.2ms)
+Completed 200 OK in 37ms (Views: 32.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-19 15:14:08 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-11-19 15:14:09 -0600
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (3.1ms)
+  Rendered users/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 38ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-19 15:14:16 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMBFNZL9qjLzy0BPu4v5nCZcevdWt8/2VhNM7cIpnw37lREJuwytKOgJhlBM4wyqfqq5UVTVNMc+tuedRSuWPQ==", "user"=>{"name"=>"alex", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "alex"], ["password_digest", "$2a$10$K5yqAhAQK2TRHsSAJFeI7uiFY03y5JwhIJjK1lB/XkjPi1r0jufjW"], ["created_at", "2017-11-19 21:14:16.770187"], ["updated_at", "2017-11-19 21:14:16.770187"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 69ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-19 15:14:16 -0600
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
