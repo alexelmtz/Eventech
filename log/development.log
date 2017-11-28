@@ -11994,3 +11994,616 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-27 20:48:27 -0600
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 241ms (Views: 230.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-11-27 20:48:35 -0600
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LjQlF4+tmEyJDUINks4EY51uyxiWdZpLHDfeYwLMDVvTD974w9vkYTQMRlG0VgL/vd9Cgni6Qz5FF5RQ7ItjPQ==", "name"=>"alex", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "alex"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 72ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 20:48:35 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (1.5ms)
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 20:48:36 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (7.8ms)
+Completed 200 OK in 63ms (Views: 56.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-27 20:48:41 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (20.8ms)
+Completed 200 OK in 52ms (Views: 44.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 20:48:46 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (0.3ms)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 20:49:35 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (107.3ms)
+Completed 200 OK in 158ms (Views: 142.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 20:49:52 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (6.4ms)
+Completed 200 OK in 54ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 20:50:00 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (4.5ms)
+Completed 200 OK in 35ms (Views: 31.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 20:50:13 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (2.3ms)
+Completed 200 OK in 46ms (Views: 41.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:32:09 -0600
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (103.9ms)
+Completed 200 OK in 157ms (Views: 141.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:32:27 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (4.0ms)
+Completed 200 OK in 42ms (Views: 26.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:32:49 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (1.7ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:33:28 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (4.6ms)
+Completed 200 OK in 51ms (Views: 43.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:34:21 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (3.7ms)
+Completed 200 OK in 70ms (Views: 62.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:35:15 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (1.0ms)
+Completed 200 OK in 31ms (Views: 24.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:35:16 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (0.9ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:36:24 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (3.7ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:37:31 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (197.8ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pages_new_companie_path' for #<#<Class:0x007fbc90f901d8>:0x007fbc91250670>
+Did you mean?  pages_new_company_path
+               pages_companies_path
+               pages_new_company_url):
+    2: 	<div class="col-sm-1 pic col-sm-offset-5">
+    3: 		<h1 id="welcome">Companies</h1>
+    4: 	</div>
+    5:   <%=link_to "Add Company", pages_new_companie_path, {class: "link"} %>
+    6:   <table class="col-sm-offset-1 table-bordered">
+    7:     <thead>
+    8:       <tr>
+  
+app/views/pages/companies.html.erb:5:in `_app_views_pages_companies_html_erb__3950960102153565619_70223932857760'
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:37:47 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (10.2ms)
+Completed 200 OK in 50ms (Views: 46.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:38:18 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (6.2ms)
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:39:05 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (3.9ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:39:42 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (3.6ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:40:03 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (3.6ms)
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:40:27 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (3.6ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:41:10 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.7ms)
+Completed 200 OK in 39ms (Views: 31.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:41:16 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.2ms)
+Completed 200 OK in 40ms (Views: 35.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:41:41 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (3.9ms)
+Completed 200 OK in 33ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:41:49 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.2ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:41:55 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (7.5ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:42:05 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (5.7ms)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:42:07 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (1.7ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 21:42:21 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (2.6ms)
+Completed 200 OK in 47ms (Views: 41.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:42:24 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (11.1ms)
+Completed 200 OK in 72ms (Views: 62.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:42:59 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (5.8ms)
+Completed 200 OK in 47ms (Views: 39.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:43:00 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (1.3ms)
+Completed 200 OK in 39ms (Views: 32.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:43:01 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (2.0ms)
+Completed 200 OK in 40ms (Views: 34.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:43:06 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (1.4ms)
+Completed 200 OK in 47ms (Views: 39.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:43:16 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (0.9ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:43:18 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (8.1ms)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:43:22 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (2.3ms)
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-27 21:43:28 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (2.2ms)
+Completed 200 OK in 42ms (Views: 37.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/join_event" for 127.0.0.1 at 2017-11-27 21:43:28 -0600
+Processing by PagesController#join_event as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/join_event.html.erb within layouts/header
+  Rendered pages/join_event.html.erb within layouts/header (1.4ms)
+Completed 200 OK in 40ms (Views: 29.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:43:31 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (8.2ms)
+Completed 200 OK in 60ms (Views: 55.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 21:43:33 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (2.0ms)
+Completed 200 OK in 36ms (Views: 29.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:43:34 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (7.8ms)
+Completed 200 OK in 67ms (Views: 62.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/new_company" for 127.0.0.1 at 2017-11-27 21:44:36 -0600
+Processing by PagesController#new_company as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_company.html.erb within layouts/header
+  Rendered pages/new_company.html.erb within layouts/header (1.0ms)
+Completed 200 OK in 28ms (Views: 23.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:44:37 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (10.0ms)
+Completed 200 OK in 52ms (Views: 44.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 21:44:47 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (2.2ms)
+Completed 200 OK in 56ms (Views: 46.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:44:48 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (22.9ms)
+Completed 200 OK in 61ms (Views: 56.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/new_events" for 127.0.0.1 at 2017-11-27 21:44:49 -0600
+Processing by PagesController#new_events as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/new_events.html.erb within layouts/header
+  Rendered pages/new_events.html.erb within layouts/header (1.6ms)
+Completed 200 OK in 45ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:44:49 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (11.4ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:46:01 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.4ms)
+Completed 200 OK in 33ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/join_event" for 127.0.0.1 at 2017-11-27 21:46:03 -0600
+Processing by PagesController#join_event as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/join_event.html.erb within layouts/header
+  Rendered pages/join_event.html.erb within layouts/header (1.7ms)
+Completed 200 OK in 38ms (Views: 33.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:46:44 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (7.0ms)
+Completed 200 OK in 51ms (Views: 44.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:47:25 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.1ms)
+Completed 200 OK in 36ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:48:15 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (8.4ms)
+Completed 200 OK in 50ms (Views: 40.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:48:40 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (5.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Labs):
+    21:     <tbody>
+    22:       <tr>
+    23:         <td class="col-sm-1 pic" ><%=link_to image_tag("Logos/IL.png", :size => "130x130"), "http://www.icalialabs.com/", {class: "link"} %> </td>
+    24:         <td class="col-sm-1 pic" > <%= link_to Icalia Labs, "http://www.icalialabs.com/", {class: "link"} %></td>
+    25:         <td class="col-sm-1"> 01 81 2089 8857 </td>
+    26:         <td class="col-sm-1"> icalia@icalialabs-mty.com </td>
+    27:       </tr>
+  
+app/views/pages/companies.html.erb:24:in `_app_views_pages_companies_html_erb__3950960102153565619_70223935423120'
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:49:04 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.4ms)
+Completed 200 OK in 36ms (Views: 28.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:49:43 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (4.4ms)
+Completed 200 OK in 32ms (Views: 26.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:49:58 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (5.5ms)
+Completed 200 OK in 46ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:55:38 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (1.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:37: unknown regexp options - td
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:38: syntax error, unexpected '<'
+        <td class="col-sm-1"> disruptiv
+         ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:38: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+"col-sm-1"> disruptive@disrupt-mty.com </td>
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:39: unknown regexp options - tr
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:40: syntax error, unexpected '<'
+      <tr>
+       ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:41: syntax error, unexpected '<'
+  <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/AC
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:41: syntax error, unexpected ')', expecting keyword_end
+, "https://icpc.baylor.edu/" );@output_buffer.safe_append=' 
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:43: unknown regexp options - td
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:44: syntax error, unexpected '<'
+        <td class="col-sm-1"> acm@acm.c
+         ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:44: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+ <td class="col-sm-1"> acm@acm.com </td>
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:45: unknown regexp options - tr
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:46: syntax error, unexpected '<'
+      <tr>
+       ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:47: syntax error, unexpected '<'
+  <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/ML
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:47: syntax error, unexpected ')', expecting keyword_end
+130x130"), "https://mlh.io/" );@output_buffer.safe_append=' 
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:49: unknown regexp options - td
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:50: syntax error, unexpected '<'
+        <td class="col-sm-1"> mlh@mlh.c
+         ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:50: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+ <td class="col-sm-1"> mlh@mlh.com </td>
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:51: unknown regexp options - tr
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:52: syntax error, unexpected '<'
+      <tr>
+       ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:53: syntax error, unexpected '<'
+  <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/DF
+                              ^
+/Users/alexelizondo/Drive/Tec/Quinto Semestre/AMSS/Eventech/Eventech/app/views/pages/companies.html.erb:53: syntax error, unexpected ')', expecting keyword_end
+ "http://definityfirst.com/" );@output_buffer.safe_append=' 
+                              ^):
+  
+app/views/pages/companies.html.erb:37: unknown regexp options - td
+app/views/pages/companies.html.erb:38: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:38: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+app/views/pages/companies.html.erb:39: unknown regexp options - tr
+app/views/pages/companies.html.erb:40: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:41: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:41: syntax error, unexpected ')', expecting keyword_end
+app/views/pages/companies.html.erb:43: unknown regexp options - td
+app/views/pages/companies.html.erb:44: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:44: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+app/views/pages/companies.html.erb:45: unknown regexp options - tr
+app/views/pages/companies.html.erb:46: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:47: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:47: syntax error, unexpected ')', expecting keyword_end
+app/views/pages/companies.html.erb:49: unknown regexp options - td
+app/views/pages/companies.html.erb:50: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:50: syntax error, unexpected tIVAR, expecting keyword_do or '{' or '('
+app/views/pages/companies.html.erb:51: unknown regexp options - tr
+app/views/pages/companies.html.erb:52: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:53: syntax error, unexpected '<'
+app/views/pages/companies.html.erb:53: syntax error, unexpected ')', expecting keyword_end
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:56:24 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (5.2ms)
+Completed 200 OK in 44ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 21:56:38 -0600
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (9.0ms)
+Completed 200 OK in 39ms (Views: 33.8ms | ActiveRecord: 0.2ms)
+
+

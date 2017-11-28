@@ -9,6 +9,9 @@ class PagesController < ApplicationController
   def join_event
   end
 
+  def new_company
+  end
+
   def new
   	@joinevent = JoinEvent.new
   	@createevent = CreateEvent.new

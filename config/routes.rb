@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'pages/new_events'
 
+  get 'pages/new_company'
+
   # get 'admin/index'
 
   # get 'sessions/new'

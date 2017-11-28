@@ -2,6 +2,13 @@
 	<div class="col-sm-1 pic col-sm-offset-5">
 		<h1 id="welcome">Companies</h1>
 	</div>
+</div>
+<div class="row">
+  <div class="col-sm-2 col-sm-offset-1" style="font-size: 24px;">
+    <%=link_to "Add Company", pages_new_company_path, {class: "link"} %>
+  </div>
+</div>
+<div class="row">
   <table class="col-sm-offset-1 table-bordered">
     <thead>
       <tr>
@@ -13,38 +20,38 @@
     </thead>
     <tbody>
       <tr>
-        <td class="col-sm-1 pic" > <%= image_tag("Logos/IL.png", :size => "130x130") %> </td>
-        <td class="col-sm-1 pic" >Icalia Labs</td>
+        <td class="col-sm-1 pic" ><%=link_to image_tag("Logos/IL.png", :size => "130x130"), "http://www.icalialabs.com/", {class: "link"} %> </td>
+        <td class="col-sm-1 pic" > <%= link_to "Icalia Labs", "http://www.icalialabs.com/", {class: "link"} %></td>
         <td class="col-sm-1"> 01 81 2089 8857 </td>
         <td class="col-sm-1"> icalia@icalialabs-mty.com </td>
       </tr>
       <tr>
-        <td class="col-sm-1 pic" > <%= image_tag("Logos/Towa.png", :size => "130x130") %> </td>
-        <td class="col-sm-1 pic" >Towa</td>
+        <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/Towa.png", :size => "130x130"), "http://towasoftware.com/" %> </td>
+        <td class="col-sm-1 pic" ><%= link_to "Towa", "http://towasoftware.com/", {class: "link"}%></td>
         <td class="col-sm-1"> 01 81 8319 0533 </td>
         <td class="col-sm-1"> towa@towa-mty.com </td>
       </tr>
       <tr>
-        <td class="col-sm-1 pic" > <%= image_tag("Logos/DS.png", :size => "130x130") %> </td>
-        <td class="col-sm-1 pic" >Disruptive Angels</td>
+        <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/DS.png", :size => "130x130"), "https://disruptiveangels.com/" %> </td>
+        <td class="col-sm-1 pic" > <%= link_to "Disruptive Angels", "https://disruptiveangels.com/", {class: "link"} %></td>
         <td class="col-sm-1"> 01 81 8343 4363</td>
         <td class="col-sm-1"> disruptive@disrupt-mty.com </td>
       </tr>
       <tr>
-        <td class="col-sm-1 pic" > <%= image_tag("Logos/ACM.png", :size => "130x130") %> </td>
-        <td class="col-sm-1 pic" >ACM</td>
+        <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/ACM.png", :size => "130x130"), "https://icpc.baylor.edu/" %> </td>
+        <td class="col-sm-1 pic" > <%= link_to "ACM", "https://icpc.baylor.edu/", {class: "link"} %> </td>
         <td class="col-sm-1"> 01 81 8155 8700 </td>
         <td class="col-sm-1"> acm@acm.com </td>
       </tr>
       <tr>
-        <td class="col-sm-1 pic" > <%= image_tag("Logos/MLH.jpg", :size => "130x130") %> </td>
-        <td class="col-sm-1 pic" >MLH</td>
+        <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/MLH.jpg", :size => "130x130"), "https://mlh.io/" %> </td>
+        <td class="col-sm-1 pic" ><%= link_to "MLH", "https://mlh.io/", {class: "link"} %> </td>
         <td class="col-sm-1"> 01 81 8345 8790 </td>
         <td class="col-sm-1"> mlh@mlh.com </td>
       </tr>
       <tr>
-        <td class="col-sm-1 pic" > <%= image_tag("Logos/DF.png", :size => "130x130") %> </td>
-        <td class="col-sm-1 pic" >Definity first</td>
+        <td class="col-sm-1 pic" > <%= link_to image_tag("Logos/DF.png", :size => "130x130"), "http://definityfirst.com/" %> </td>
+        <td class="col-sm-1 pic" > <%= link_to "Definity first", "http://definityfirst.com/", {class: "link"} %> </td>
         <td class="col-sm-1"> 01 81 8192 2554 </td>
         <td class="col-sm-1"> definity@definity-first.com </td>
       </tr>

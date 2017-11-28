@@ -1,0 +1,16 @@
+<div class="row">
+	<div class="col-sm-3 col-sm-offset-5">
+		<h1 id="welcome">New Company</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="forms">
+		<%= form_for :user, :html => { :style => 'font-size: 20px;' } do |f| %>
+			Name <%= f.text_field :name %> </br></br>
+			Phone <%= f.text_field :place %> </br></br>
+			Email&nbsp; <%= f.text_field :date %> </br></br>
+			Logo <input type="file"  /> </br></br>
+		<% end %>
+		<button name='button' type='submit' style="height: 30px; width: 70px;"> <%=link_to "Submit", pages_companies_path, {class: "link"} %> </button>
+	</div>
+</div>
