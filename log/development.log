@@ -12607,3 +12607,36 @@ Processing by AdminController#index as HTML
 Completed 200 OK in 39ms (Views: 33.8ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 21:59:42 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering admin/index.html.erb within layouts/header
+  Rendered admin/index.html.erb within layouts/header (1.6ms)
+Completed 200 OK in 156ms (Views: 138.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:59:43 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (26.5ms)
+Completed 200 OK in 58ms (Views: 50.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 21:59:51 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (5.9ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/companies" for 127.0.0.1 at 2017-11-27 22:00:00 -0600
+Processing by PagesController#companies as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering pages/companies.html.erb within layouts/header
+  Rendered pages/companies.html.erb within layouts/header (7.9ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.2ms)
+
+
