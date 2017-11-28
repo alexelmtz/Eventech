@@ -1,28 +1,6 @@
-<<<<<<< HEAD
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
 # Eventech
->>>>>>> origin/master
+This is a website that finds local events nearby so that people that are interested can decide to join and know the information about each one of them. It also provides information about the host companies or groups.
+
+Created with Ruby on Rails.
+
+See https://amssjavalio.herokuapp.com/
